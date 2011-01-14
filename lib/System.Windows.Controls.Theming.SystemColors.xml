@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Windows.Controls.Theming.SystemColors</name>
+    </assembly>
+    <members>
+        <member name="T:System.Windows.Controls.Theming.SetterValueBindingHelper">
+            <summary>
+            Class that implements a workaround for a Silverlight XAML parser
+            limitation that prevents the following syntax from working:
+               &lt;Setter Property="IsSelected" Value="{Binding IsSelected}"/&gt;.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SetterValueBindingHelper._values">
+            <summary>
+            Backing store for the Values property.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SetterValueBindingHelper.GetPropertyBinding(System.Windows.FrameworkElement)">
+            <summary>
+            Gets the value of the PropertyBinding attached DependencyProperty.
+            </summary>
+            <param name="element">Element for which to get the property.</param>
+            <returns>Value of PropertyBinding attached DependencyProperty.</returns>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SetterValueBindingHelper.SetPropertyBinding(System.Windows.FrameworkElement,System.Windows.Controls.Theming.SetterValueBindingHelper)">
+            <summary>
+            Sets the value of the PropertyBinding attached DependencyProperty.
+            </summary>
+            <param name="element">Element on which to set the property.</param>
+            <param name="value">Value forPropertyBinding attached DependencyProperty.</param>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SetterValueBindingHelper.PropertyBindingProperty">
+            <summary>
+            PropertyBinding attached DependencyProperty.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SetterValueBindingHelper.OnPropertyBindingPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Change handler for the PropertyBinding attached DependencyProperty.
+            </summary>
+            <param name="d">Object on which the property was changed.</param>
+            <param name="e">Property change arguments.</param>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SetterValueBindingHelper.ApplyBinding(System.Windows.FrameworkElement,System.Windows.Controls.Theming.SetterValueBindingHelper)">
+            <summary>
+            Applies the Binding represented by the SetterValueBindingHelper.
+            </summary>
+            <param name="element">Element to apply the Binding to.</param>
+            <param name="item">SetterValueBindingHelper representing the Binding.</param>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SetterValueBindingHelper.Type">
+            <summary>
+            Gets or sets an optional type parameter used to specify the type
+            of an attached DependencyProperty as an assembly-qualified name,
+            full name, or short name.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SetterValueBindingHelper.Property">
+            <summary>
+            Gets or sets a property name for the normal/attached
+            DependencyProperty on which to set the Binding.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SetterValueBindingHelper.Binding">
+            <summary>
+            Gets or sets a Binding to set on the specified property.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SetterValueBindingHelper.Values">
+            <summary>
+            Gets a Collection of SetterValueBindingHelper instances to apply
+            to the target element.
+            </summary>
+            <remarks>
+            Used when multiple Bindings need to be applied to the same element.
+            </remarks>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SetterValueBindingHelper.AssembliesToSearch">
+            <summary>
+            Gets a stream of assemblies to search for the provided type name.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Controls.Theming.SystemColorsTheme">
+            <summary>
+            Implicitly applies the System Colors theme to all of its descendent FrameworkElements.
+            </summary>
+            <QualityBand>Preview</QualityBand>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemColorsTheme.ThemeResourceUri">
+            <summary>
+            Stores a reference to a Uri referring to the theme resource for the class.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SystemColorsTheme.#ctor">
+            <summary>
+            Initializes a new instance of the SystemColorsTheme class.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SystemColorsTheme.GetIsApplicationTheme(System.Windows.Application)">
+            <summary>
+            Gets a value indicating whether this theme is the application theme.
+            </summary>
+            <param name="app">Application instance.</param>
+            <returns>True if this theme is the application theme.</returns>
+        </member>
+        <member name="M:System.Windows.Controls.Theming.SystemColorsTheme.SetIsApplicationTheme(System.Windows.Application,System.Boolean)">
+            <summary>
+            Sets a value indicating whether this theme is the application theme.
+            </summary>
+            <param name="app">Application instance.</param>
+            <param name="value">True if this theme should be the application theme.</param>
+        </member>
+        <member name="T:System.Windows.Controls.Theming.SystemBrushes">
+            <summary>
+            Implements the Brush forms of System.Windows.SystemColors which only
+            provides Colors on Silverlight.
+            </summary>
+            <QualityBand>Preview</QualityBand>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._activeBorderBrush">
+            <summary>
+            Backing store for the ActiveBorderBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._activeCaptionBrush">
+            <summary>
+            Backing store for the ActiveCaptionBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._activeCaptionTextBrush">
+            <summary>
+            Backing store for the ActiveCaptionTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._appWorkspaceBrush">
+            <summary>
+            Backing store for the AppWorkspaceBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlBrush">
+            <summary>
+            Backing store for the ControlBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlDarkBrush">
+            <summary>
+            Backing store for the ControlDarkBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlDarkDarkBrush">
+            <summary>
+            Backing store for the ControlDarkDarkBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlLightBrush">
+            <summary>
+            Backing store for the ControlLightBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlLightLightBrush">
+            <summary>
+            Backing store for the ControlLightLightBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._controlTextBrush">
+            <summary>
+            Backing store for the ControlTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._desktopBrush">
+            <summary>
+            Backing store for the DesktopBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._grayTextBrush">
+            <summary>
+            Backing store for the GrayTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._highlightBrush">
+            <summary>
+            Backing store for the HighlightBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._highlightTextBrush">
+            <summary>
+            Backing store for the HighlightTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._inactiveBorderBrush">
+            <summary>
+            Backing store for the InactiveBorderBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._inactiveCaptionBrush">
+            <summary>
+            Backing store for the InactiveCaptionBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._inactiveCaptionTextBrush">
+            <summary>
+            Backing store for the InactiveCaptionTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._infoBrush">
+            <summary>
+            Backing store for the InfoBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._infoTextBrush">
+            <summary>
+            Backing store for the InfoTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._menuBrush">
+            <summary>
+            Backing store for the MenuBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._menuTextBrush">
+            <summary>
+            Backing store for the MenuTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._scrollBarBrush">
+            <summary>
+            Backing store for the ScrollBarBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._windowBrush">
+            <summary>
+            Backing store for the WindowBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._windowFrameBrush">
+            <summary>
+            Backing store for the WindowFrameBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._windowTextBrush">
+            <summary>
+            Backing store for the WindowTextBrush property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._buttonGradient">
+            <summary>
+            Backing store for the ButtonGradient property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._buttonGradientReverse">
+            <summary>
+            Backing store for the ButtonGradientReverse property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._buttonGradientHorizontal">
+            <summary>
+            Backing store for the ButtonGradientHorizontal property.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Controls.Theming.SystemBrushes._calendarGradient">
+            <summary>
+            Backing store for the CalendarGradient property.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ActiveBorderBrush">
+            <summary>
+            Gets a Brush for SystemColors.ActiveBorderColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ActiveCaptionBrush">
+            <summary>
+            Gets a Brush for SystemColors.ActiveCaptionColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ActiveCaptionTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.ActiveCaptionTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.AppWorkspaceBrush">
+            <summary>
+            Gets a Brush for SystemColors.AppWorkspaceColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlDarkBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlDarkColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlDarkDarkBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlDarkDarkColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlLightBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlLightColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlLightLightBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlLightLightColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ControlTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.ControlTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.DesktopBrush">
+            <summary>
+            Gets a Brush for SystemColors.DesktopColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.GrayTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.GrayTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.HighlightBrush">
+            <summary>
+            Gets a Brush for SystemColors.HighlightColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.HighlightTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.HighlightTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.InactiveBorderBrush">
+            <summary>
+            Gets a Brush for SystemColors.InactiveBorderColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.InactiveCaptionBrush">
+            <summary>
+            Gets a Brush for SystemColors.InactiveCaptionColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.InactiveCaptionTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.InactiveCaptionTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.InfoBrush">
+            <summary>
+            Gets a Brush for SystemColors.InfoColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.InfoTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.InfoTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.MenuBrush">
+            <summary>
+            Gets a Brush for SystemColors.MenuColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.MenuTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.MenuTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ScrollBarBrush">
+            <summary>
+            Gets a Brush for SystemColors.ScrollBarColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.WindowBrush">
+            <summary>
+            Gets a Brush for SystemColors.WindowColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.WindowFrameBrush">
+            <summary>
+            Gets a Brush for SystemColors.WindowFrameColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.WindowTextBrush">
+            <summary>
+            Gets a Brush for SystemColors.WindowTextColor.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ButtonGradient">
+            <summary>
+            Gets a Brush for the gradient of a Button.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ButtonGradientReverse">
+            <summary>
+            Gets a Brush for the reversed gradient of a Button.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.ButtonGradientHorizontal">
+            <summary>
+            Gets a Brush for the horizontal gradient of a Button.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Controls.Theming.SystemBrushes.CalendarGradient">
+            <summary>
+            Gets a Brush for the gradient of a Calendar.
+            </summary>
+        </member>
+    </members>
+</doc>

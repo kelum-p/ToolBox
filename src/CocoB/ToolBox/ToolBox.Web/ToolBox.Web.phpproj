@@ -1,0 +1,56 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"SilverlightSettings"
+{
+"DestinationFolderUrl" = "ClientBin"
+"CopyConfigFolder" = "false"
+"SilverlightProjectGUID" = "{22430428-7AE5-4E46-B715-CB4665C7FCC2}"
+}
+"Configurations"
+{
+    "Local|PHP 5.3"
+    {
+    }
+    "Staging|PHP 5.3"
+    {
+    }
+    "Production|PHP 5.3"
+    {
+    }
+}
+"Files"
+{
+    "silverlight.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "silverlight.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "ClientBin\\UI.xap"
+    {
+    "ProjRelPath" = "T"
+    }
+    "ClientBin"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}

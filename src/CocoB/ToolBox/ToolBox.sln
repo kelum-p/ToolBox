@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{1863889A-00DF-4350-BA39-669CA949CB81}") = "ToolBox.Web", "ToolBox.Web\ToolBox.Web.phpproj", "{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{22430428-7AE5-4E46-B715-CB4665C7FCC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|PHP 5.3 = Debug|PHP 5.3
+		Local|Any CPU = Local|Any CPU
+		Local|Mixed Platforms = Local|Mixed Platforms
+		Local|PHP 5.3 = Local|PHP 5.3
+		Production|Any CPU = Production|Any CPU
+		Production|Mixed Platforms = Production|Mixed Platforms
+		Production|PHP 5.3 = Production|PHP 5.3
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|PHP 5.3 = Release|PHP 5.3
+		Staging|Any CPU = Staging|Any CPU
+		Staging|Mixed Platforms = Staging|Mixed Platforms
+		Staging|PHP 5.3 = Staging|PHP 5.3
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Debug|Any CPU.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Debug|Mixed Platforms.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Debug|Mixed Platforms.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Debug|PHP 5.3.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Debug|PHP 5.3.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Local|Any CPU.ActiveCfg = Local|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Local|Mixed Platforms.ActiveCfg = Local|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Local|Mixed Platforms.Deploy.0 = Local|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Local|PHP 5.3.ActiveCfg = Local|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Local|PHP 5.3.Deploy.0 = Local|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Production|Any CPU.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Production|Mixed Platforms.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Production|Mixed Platforms.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Production|PHP 5.3.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Production|PHP 5.3.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Release|Any CPU.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Release|Mixed Platforms.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Release|Mixed Platforms.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Release|PHP 5.3.ActiveCfg = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Release|PHP 5.3.Deploy.0 = Production|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Staging|Any CPU.ActiveCfg = Staging|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Staging|Mixed Platforms.ActiveCfg = Staging|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Staging|Mixed Platforms.Deploy.0 = Staging|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Staging|PHP 5.3.ActiveCfg = Staging|PHP 5.3
+		{22F2CF49-4D92-4B13-A440-DE19AC1A1B9D}.Staging|PHP 5.3.Deploy.0 = Staging|PHP 5.3
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Debug|PHP 5.3.ActiveCfg = Debug|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Local|Any CPU.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Local|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Local|Mixed Platforms.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Local|PHP 5.3.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Production|Any CPU.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Production|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Production|Mixed Platforms.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Production|PHP 5.3.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Release|PHP 5.3.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Staging|Any CPU.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Staging|Any CPU.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Staging|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Staging|Mixed Platforms.Build.0 = Release|Any CPU
+		{22430428-7AE5-4E46-B715-CB4665C7FCC2}.Staging|PHP 5.3.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
